@@ -88,37 +88,55 @@ header #header_nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin-top: 70px;
 }
 
 #blog > ul {
     height: 100%;
     display: flex;
     flex-direction: row;
-    background-color: red;
     justify-content: center;
     align-items: center;
 }
 
 #blog > ul > li {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    width: 30%;
-    height: 30%;
+    margin: 60px;
+    width: 250px;
+    height: 350px;
 }
 
 #img_blog1 {
-    background-image: url("/blue.jpg");
+    background-image: url("/daramgi.png");
+    width: 250px;
+    height: 250px;
 }
 
 #img_blog2 {
-    background-image: url("/cafe.jpg");
+    background-image: url("/1.jpg");
+    width: 250px;
+    height: 250px;
 }
 
 #img_blog3 {
-    background-image: url("/camera.jpg");
+    background-image: url("/bike.jpg");
+    width: 250px;
+    height: 250px;
+}
+
+.expain_img {
+    background-color: #ddd;
+    padding: 10px;
+    font-size: small;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
 }
 
 /* footer */
